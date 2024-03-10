@@ -1,11 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+const NewComp = () =>{
+  return(
+    
+<Text>whats up Mark</Text>
+    
+  )
+}
+
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello World! </Text>
       <StatusBar style="auto" />
+      <NewComp/>
     </View>
   );
 }
